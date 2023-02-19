@@ -1,3 +1,4 @@
 # Abekekor.github.io
 
-https://github.com/Abekekor/Abekekor.github.io/tree/main/lab3
+
+https://github.com/Abekekor/Abekekor.github.io/blob/main/lab3/index.html
