@@ -1,7 +1,7 @@
 .container-fluid{
     margin: 0;
     padding: 100px;
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(252, 189, 150);
 }
 
 h1 {
@@ -15,9 +15,9 @@ p{
 }
 
 #main-image {
-    width: 400px;
+    width: 200px;
     border: solid;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .header {
@@ -30,11 +30,11 @@ p{
 }
 
 .li {
-    color: rgb(252, 105, 105);
+    color: rgb(233, 0, 0);
 }
 
 a {
-    color: brown;
+    color: rgb(255, 0, 0);
 }
 
 a:hover {
