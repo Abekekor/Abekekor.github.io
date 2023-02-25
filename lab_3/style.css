@@ -1,7 +1,7 @@
 .container-fluid{
     margin: 0;
     padding: 100px;
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(255, 255, 255);
 }
 
 h1 {
