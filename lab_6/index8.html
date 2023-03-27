@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+
+<title>Книги с описанием</title>
+</head>
+<body>
+   
+   <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn"> Меню</button>
+      <div id="myDropdown" class="dropdown-content">
+          <a href="#">Басты бет</a>
+          <a href="#">Біз туралы</a>
+          <a href="#">Біз туралы</a>
+          <a href="#">Басты бет</a>
+          <a href="#">Басты бет</a>
+          <a href="#">Біз туралы</a>
+          <a href="#">Аудиокітап</a>
+          <a href="#">Сатып алу</a>
+          <a href="#">Корзина</a>
+          <a href="#">Байланыс нөмерлері</a>
+          
+     </div>
+   </div>
+   <img src="fon1.jpg" class="background" />
+   
+<section>
+  
+  
+ 
+      <div class="open">
+         <div class="button">
+         <a href="vhod.html">
+            <p>Кіру/Тіркелу</p>
+         </a>
+         
+      </div>
+      </div>
+   
+      <div class="zagol7">
+        <h1>Балалы үйде өтірік жатпайды.</h1>
+     </div>
+    <div class="book">
+         <div class="image">
+            <img src="22kitap.jpg"
+            alt="книга, book">
+
+         </div>
+         <div class="text">
+            <h2>Qartqoja</h2>
+            <p>Қартқожа – елді екіұдай күйге түсіріп, тағдырын талайға салған тарихи, әлеуметтік арпалыстар кезеңіндегі қарапайым қазақ шаруасының күйін эпикалық үлгіде көркем бейнелеген алғашқы шығарма. Туындыда төңкеріс алдындағы және әлеуметтік қақтығыстар кезіндегі қазақ шаруасының тіршілігі, кейінгі талпыныстары мен тартыстары, сондай-ақ қоғамдық теңсіздікті ұғынып, әділетсіздіктің себептеріне ой жіберуі нанымды бейнеленеді.</p>
+
+         </div>
+    </div>
+    <div class="book">
+      <div class="image">
+         <img src="23kitap.jpg"
+         alt="книга, book">
+
+      </div>
+      <div class="text">
+         <h2>Borandy beket </h2>
+         <p>«Боранды бекет» романының негізгі тақырыбы – рухани құлдырау мен мәңгүрттік. Бір адамның тағдырын баяндағандай көрінгенімен, қоғамның қасіреті мен ұлттың трагедиясын сипаттайды. Жазушы адамды адам етіп, қоғамды құлдыраудан сақтап тұрған адамгершілік екеніне баса назар аударады. Қағынан жеріген мәңгүрттердің әрқилы әрекетін баяндау арқылы оқырманға ой салады.</p>
+
+      </div>
+ </div>
+ <div class="book">
+   <div class="image">
+      <img src="24kitap.jpg"
+      alt="книга, book">
+
+   </div>
+   <div class="text">
+      <h2>Bala Shoqan</h2>
+      <p>Ағартушылық мәдениеттің тұңғыш өкілдерінің бірі, шығыстанушы, тарихшы, фольклоршы, этнограф, географ Шоқан Уәлихановтың өмір жолының балалық шағы баяндалған туынды. Болашақ ғалымның алғашқы туып-өскен ортасы, мінез-құлқы, сол кездің тұрмыс-салты анық та көркем шындықпен астастырыла суреттелген шығарма оқырман қауымның көңілінен шығары сөзсіз.</p>
+
+   </div>
+</div>
+
+
+<div class ="icon">
+   <div class="image">
+       <a href="index9.html">
+         <img src="icons2.png" >
+       </a>
+</div>
+<div class ="icon1">
+    <div class="image">
+        <a href="index7.html">
+          <img src="icons3.png" >
+        </a>
+ </div>
+<div class ="Logotip">
+   <div class="image">
+      <img src = "Logotip.jpg">
+</div>
+<div class ="text1">
+   <h2>Жоба туралы</h2>
+</div>
+
+<div class ="obshi">
+   <div class="image">
+       
+         <img src="obshi.png" >
+
+      
+</div>
+<div class ="BET1">
+   <div class="image">
+      <img src="1BET.png">
+</div>
+<div class ="BET2">
+   <div class="image">
+      <img src="2BET.png">
+</div>
+<div class ="BET3">
+   <div class="image">
+      <img src="3BET.png">
+</div>
+<div class ="BET4">
+   <div class="image">
+      <img src="4BET.png">
+</div>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+</style>
+</head>
+<body>
+
+
+
+
+
+<script>
+/* Когда пользователь нажимает на кнопку, переключаться раскрывает содержимое */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Закрыть раскрывающийся список, если пользователь щелкнет за его пределами.
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</body>
+</html>

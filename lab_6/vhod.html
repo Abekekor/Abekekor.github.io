@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    padding: 16px;
+    background-color: white;
+}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+
+a {
+    color: dodgerblue;
+}
+
+
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<form action="/action_page.php">
+  <div class="container">
+    <h1>Тіркелу</h1>
+    <p>Сайтта тіркелу үшін осы пішінді толтырыңыз.</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Email" name="email" required>
+
+    <label for="Құлыпсөзді жазыңыз"><b>Password</b></label>
+    <input type="password" placeholder="Құлыпсөзді жазыңыз" name="Құлыпсөзді жазыңыз" required>
+
+    <label for="Құлыпсөзді растаңыз"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Құлыпсөзді растаңыз" name="Құлыпсөзді растаңыз" required>
+    <hr>
+    <p>Тіркелу арқылы сіз бізбен келісесіз  <a href="#">Шарттар мен құпиялылық.</a>.</p>
+
+    <button type="submit" class="registerbtn">Тіркелу</button>
+  </div>
+  
+  <div class="container signin">
+    <p>Есептік жазбаңыз әлдеқашан бар ма? <a href="#">Кіру</a>.</p>
+  </div>
+</form>
+
+</body>
+</html>

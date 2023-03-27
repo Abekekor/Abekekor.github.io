@@ -1,0 +1,348 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.dropbtn {
+    background-color: #ff8214;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+  }
+  
+  .dropdown {
+   /* position: relative;
+    float: right;
+
+    right: 100;*/
+    margin-left: -150px;
+    margin-bottom: 800px;
+    
+   
+  }
+  
+  .dropdown-content {
+    display: none;
+    margin-left: 100px;
+  
+    
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   
+    
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 850px;
+    background: #ffffff;
+}
+section{
+    width:1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.book{
+    margin: 10px;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #000000;
+    box-shadow: 0 30px 30px
+    rgba(0,0,0,0.5);
+
+}
+.book .image {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.book .image img {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    transition: 0.5s;
+
+}
+.book .text{
+    position: absolute;
+    padding: 15px;
+    bottom:10px;
+    left:10px;
+    width:80%;
+    height:60px;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: rgba(214,214,203,0.3);
+    transition:0.5s;
+
+}
+.book:hover .text{
+    width: 100%;
+    height: 100%;
+    bottom:0;
+    left:0;
+    background: rgba(214,214,203,1);
+    box-shadow: 0 20px 50px
+    rgba (255,255,255,0.5);
+
+}
+.book .text h2{
+    margin:0 5px 10px 17px;
+    padding:0;
+    font-size: 30px;
+}
+.book:hover .text h2{
+    margin: 0;
+    text-align:center;
+}
+
+
+
+.book .text p{
+    margin:0;
+    padding: 0;
+    opacity: 0;
+    line-height: 1.2em;
+    text-align: justify;
+    transition: 0.5s;
+}
+.book:hover .text p{
+    opacity: 1;
+    transition-delay: 0.3s;
+
+}
+.icon .image img{
+    position: absolute;
+    width: 180px;
+    height: 160px;
+    top: 350px;
+    left: 1700px;
+}
+.icon1 .image img{
+    position: absolute;
+    width: 180px;
+    height: 160px;
+    top: 350px;
+    left: 130px;
+}
+img.background {
+    min-height: 100%;
+    min-width: 640px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+  
+
+
+.zagol {
+    position: absolute;
+	width:1000px;
+	height: 1000px;
+    top: 70px;
+    left: 650px;
+    
+}
+
+.test {
+	color: #ffffff;
+	font-size: 50px;
+	background-color: rgb(240, 133, 51);
+	font-family:Courier;
+	
+}
+.zagol1 {
+    position: absolute;
+    width: 1000px;
+    height: 700px;
+    font-size: 200%;
+    top: 50px;
+    left: 570px;
+    color: rgb(255, 172, 5);
+    font-family:Courier;
+}
+.zagol2 {
+    position: absolute;
+    width: 1000px;
+    height: 700px;
+    font-size: 200%;
+    top: 50px;
+    left: 570px;
+    color: rgb(255, 172, 5);
+    font-family:Courier;
+}
+.zagol3 {
+    position: absolute;
+    width: 1000px;
+    height: 700px;
+    font-size: 200%;
+    top: 50px;
+    left: 700px;
+    color: rgb(255, 172, 5);
+    font-family:Courier;
+}
+.zagol4 {
+    position: absolute;
+    width: 1000px;
+    height: 700px;
+    font-size: 200%;
+    top: 50px;
+    left: 730px;
+    color: rgb(255, 172, 5);
+    font-family:Courier;
+}
+.zagol5 {
+    position: absolute;
+    width: 1280px;
+    height: 232px;
+    font-size: 200%;
+    top: 50px;
+    left: 600px;
+    color: rgb(255, 172, 5);
+    font-family:Courier;
+}
+.zagol6 {
+    position: absolute;
+    width: 1280px;
+    height: 232px;
+    font-size: 200%;
+    top: 50px;
+    left: 620px;
+    color: rgb(255, 172, 5);
+    font-family:Courier;
+}
+.zagol7 {
+    position: absolute;
+    width: 1280px;
+    height: 232px;
+    font-size: 200%;
+    top: 50px;
+    left: 630px;
+    color: rgb(255, 172, 5);
+    font-family:Courier;
+}
+.zagol8 {
+    position: absolute;
+    width: 1280px;
+    height: 232px;
+    font-size: 200%;
+    top: 50px;
+    left: 570px;
+    color: rgb(255, 172, 5);
+    font-family:Courier;
+}
+.Logotip .image img{
+    position: absolute;
+    width: 384px;
+    height: 70px;
+    top: 0px;
+    left: 0px;
+}
+.text1 {
+    position: absolute;
+	width:160px;
+	height: 30px;
+    top: 1000px;
+    left: 300px;
+    font-family:Courier;
+    color: #ffffff;
+    background-color: rgb(240, 133, 51);
+}
+.obshi .image img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 1000px;
+    left: 250px;
+}
+.BET1 .image img{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 1100px;
+    left: 200px;
+}
+.BET2 .image img{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 1100px;
+    left: 600px;
+}
+.BET3 .image img{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 1100px;
+    left: 1000px;
+}
+.BET4 .image img{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 1100px;
+    left: 1400px;
+}
+.button {
+    
+        
+    position: absolute;
+    background: #ff8214;
+    color: #000000;
+    top: 5px;
+    left: 1890px;
+    font-size: 20px;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif ;
+}
+a:link, a:visited {
+    background-color: DarkSalmon ;
+
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover, a:active {
+    background-color: DarkRed ;
+}
+
+
+
+
+
+ 
+
+
+
+

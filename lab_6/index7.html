@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+
+<title>Книги с описанием</title>
+</head>
+<body>
+   
+   <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn"> Меню</button>
+      <div id="myDropdown" class="dropdown-content">
+          <a href="#">Басты бет</a>
+          <a href="#">Біз туралы</a>
+          <a href="#">Біз туралы</a>
+          <a href="#">Басты бет</a>
+          <a href="#">Басты бет</a>
+          <a href="#">Біз туралы</a>
+          <a href="#">Аудиокітап</a>
+          <a href="#">Сатып алу</a>
+          <a href="#">Корзина</a>
+          <a href="#">Байланыс нөмерлері</a>
+          
+     </div>
+   </div>
+   <img src="fon1.jpg" class="background" />
+   
+<section>
+  
+  
+ 
+      <div class="open">
+         <div class="button">
+         <a href="vhod.html">
+            <p>Кіру/Тіркелу</p>
+         </a>
+         
+      </div>
+      </div>
+   
+      <div class="zagol6">
+        <h1>Қанағат қарын тойдырады.</h1>
+     </div>
+    <div class="book">
+         <div class="image">
+            <img src="19kitap.jpg"
+            alt="книга, book">
+
+         </div>
+         <div class="text">
+            <h2>Tar jol, taiǵaq keshý</h2>
+            <p>Қазақ-кеңес әдебиеті тарихында «Тар жол, тайғақ кешу» романының орны ерек. Бұл тарихи-мемуарлық шығармада қазақ халқының Қазан революциясына қатысқаны, оның жеңісін қорғау жолында талай ерлік көрсеткені, бақытты өмірге жету үшін қандай қиын өткелдерден өткені барынша нақты және тартымды баяндалған. Сондықтан да бұл роман – революциялық күрестің көркем шежіресі.</p>
+
+         </div>
+    </div>
+    <div class="book">
+      <div class="image">
+         <img src="13kitap.jpg"
+         alt="книга, book">
+
+      </div>
+      <div class="text">
+        <h2>Qan men Ter</h2>
+        <p>Әлеуметтік һәм психологиялық талдау тәсілі бір арқанның екі тініндей өрілген  шығарма – Әбдіжәміл Нұрпейісовтің «Қан мен тер» трилогиясы. Бұл туынды –  ел, халық, оның әлеуметтік тағдыры туралы шығарма. Уақыты өзгергенімен, заманалық зәрулігі өзгермейтін туынды. Тірлік-тынысы әлдеқайда кең шығарма және жанрлық жағынан да басқаға ұқсамайды.</p>
+  
+     </div>
+ </div>
+ <div class="book">
+   <div class="image">
+      <img src="21kitap.jpg"
+      alt="книга, book">
+
+   </div>
+   <div class="text">
+      <h2>Y.A áńgimeleriшimen ertegilerir</h2>
+      <p>Халқының сауатты, ілгері ел болғанын мұрат тұтып, осы бағытта еңбектеніп, қыруар іс атқарған қазақтан шыққан тұңғыш ағартушы Ыбырай Алтынсарин – мектеп ашып қана қоймай, ондағы шәкірттерінің ана тілінде оқитын оқулығын жазып қалдырған, ең бастысы, қазақ жазба әдебиетінің негізін салған тұлға. </p>
+
+   </div>
+</div>
+
+
+<div class ="icon">
+   <div class="image">
+       <a href="index8.html">
+         <img src="icons2.png" >
+       </a>
+</div>
+<div class ="icon1">
+    <div class="image">
+        <a href="index6.html">
+          <img src="icons3.png" >
+        </a>
+ </div>
+<div class ="Logotip">
+   <div class="image">
+      <img src = "Logotip.jpg">
+</div>
+<div class ="text1">
+   <h2>Жоба туралы</h2>
+</div>
+
+<div class ="obshi">
+   <div class="image">
+       
+         <img src="obshi.png" >
+
+      
+</div>
+<div class ="BET1">
+   <div class="image">
+      <img src="1BET.png">
+</div>
+<div class ="BET2">
+   <div class="image">
+      <img src="2BET.png">
+</div>
+<div class ="BET3">
+   <div class="image">
+      <img src="3BET.png">
+</div>
+<div class ="BET4">
+   <div class="image">
+      <img src="4BET.png">
+</div>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+</style>
+</head>
+<body>
+
+
+
+
+
+<script>
+/* Когда пользователь нажимает на кнопку, переключаться раскрывает содержимое */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Закрыть раскрывающийся список, если пользователь щелкнет за его пределами.
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</body>
+</html>

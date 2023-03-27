@@ -73,20 +73,3 @@ function createAirPods (version,production,price,color,features) {
 
 
 
-//function airpodsarray(version,production,price){
-//    let object={
-//        version: version,
-//        production: production,
-//        price: price,
-//    }
- //   return object;
-//}
-//myObject.forEach(Airpods => {
- //   aboHTML += `
-  //   <div class="airpods">
-  //    <p>${airpods.make}</p>
-  //    <h3>${airpods.model}</h3>
-  //    <p>$${airpods.price}</p>
-  //   </div>
- //   `;
- //});
